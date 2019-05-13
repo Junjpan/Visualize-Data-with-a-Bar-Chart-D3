@@ -1,0 +1,35 @@
+
+#title {
+  text-align: center;
+}
+
+svg {
+  background-color: gray;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+path, line{ 
+  fill:none;
+  stroke: black;
+} /* which make the tick-line stoke is shown up line is for the tick, path is for the axis-line */
+
+#info{
+  fill: #006080; /* in D3, color for font use fill*/
+  font-size:13px; 
+}
+
+.tooltip{
+  position:absolute;
+  padding:4px;
+  background-color:#ccf2ff;
+  border:1px solid white;
+  text-align:center;
+  height:100px;
+  width:150px;
+  box-shadow: 2px 2px 20px; 
+}
+
+
